@@ -1,0 +1,33 @@
+.navbar{
+    padding: 24px 0;
+    background-color: white;
+    color: #34323D;
+    .content{
+        display: flex;
+        justify-content: space-between;
+
+        .logo {
+            font-weight: bold;
+        }
+        
+        .nav-list{
+            display: flex;
+
+            li{
+                margin-right: 32px;
+                a {
+                    text-decoration: none;
+                    color: #09080e;
+                    font-weight: bold;
+                    &:hover{
+                        color: #e61923;  
+                      }
+                }
+                &:last-child{
+                    margin-right: 0;
+                }
+                
+            }
+        }
+    }
+}

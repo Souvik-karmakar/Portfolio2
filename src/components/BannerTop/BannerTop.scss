@@ -1,0 +1,25 @@
+.banner-top{
+    position: relative;
+    .content{
+        background-image: url("/assets/2.jpg");
+        height: 600px;
+        max-width: 100%;
+        background-size: cover;
+        background-repeat:no-repeat;
+        
+        
+        .name-card{
+            background-color: black;
+            color: yellow;
+            position: absolute;
+            bottom: 0;
+            font-family: "Playfair Display", sans-serif;
+            font-weight: 600;
+            font-size: 2rem;
+            width: 300px;
+            padding: 32px 8px;
+            text-align: start;
+            border-radius: 0 16px 0 0 ;
+        }
+    }
+}
